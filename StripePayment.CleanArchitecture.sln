@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripePayment.Domain", "StripePayment.Domain\StripePayment.Domain.csproj", "{6895399A-3D84-495D-869C-3A0961F801EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripePayment.Application", "StripePayment.Application\StripePayment.Application.csproj", "{F55AAE2A-8A69-4122-A9EC-B29137A5D73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripePayment.Infrastructure", "StripePayment.Infrastructure\StripePayment.Infrastructure.csproj", "{97F06ECC-75AB-40B1-97FE-5B35115BDC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripePayment.WebAPI", "StripePayment.WebAPI\StripePayment.WebAPI.csproj", "{1CF4A9DD-3B97-4CA9-94CF-ED3A3493A61E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6895399A-3D84-495D-869C-3A0961F801EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6895399A-3D84-495D-869C-3A0961F801EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6895399A-3D84-495D-869C-3A0961F801EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6895399A-3D84-495D-869C-3A0961F801EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55AAE2A-8A69-4122-A9EC-B29137A5D73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55AAE2A-8A69-4122-A9EC-B29137A5D73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55AAE2A-8A69-4122-A9EC-B29137A5D73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55AAE2A-8A69-4122-A9EC-B29137A5D73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F06ECC-75AB-40B1-97FE-5B35115BDC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F06ECC-75AB-40B1-97FE-5B35115BDC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F06ECC-75AB-40B1-97FE-5B35115BDC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F06ECC-75AB-40B1-97FE-5B35115BDC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF4A9DD-3B97-4CA9-94CF-ED3A3493A61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF4A9DD-3B97-4CA9-94CF-ED3A3493A61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF4A9DD-3B97-4CA9-94CF-ED3A3493A61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF4A9DD-3B97-4CA9-94CF-ED3A3493A61E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
