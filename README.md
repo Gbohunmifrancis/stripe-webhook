@@ -47,6 +47,10 @@ POST /api/payments/checkout/one-time    # Create one-time payment session
 POST /api/payments/checkout/subscription # Create subscription session  
 POST /api/payments/refund               # Issue refund
 GET  /api/payments/orders/{orderId}     # Get order details
+
+
+<img width="849" height="319" alt="image" src="https://github.com/user-attachments/assets/f4415271-5803-470d-a77c-8907da57faf3" />
+
 ```
 
 ### Webhooks Controller
@@ -146,10 +150,6 @@ Update your `appsettings.json` with your Stripe keys:
 
 
 
-
-
-
-![alt text](image-1.png)
 ```
 
 ## Key Technologies
