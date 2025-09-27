@@ -49,8 +49,6 @@ POST /api/payments/refund               # Issue refund
 GET  /api/payments/orders/{orderId}     # Get order details
 
 
-<img width="849" height="319" alt="image" src="https://github.com/user-attachments/assets/f4415271-5803-470d-a77c-8907da57faf3" />
-
 ```
 
 ### Webhooks Controller
